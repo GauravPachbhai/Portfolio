@@ -10,7 +10,7 @@ function Aboutme() {
             </div>
             <div className='flex justify-center gap-8 w-full mt-6'>
                 <div className="flex flex-col p-4 text-center items-center rounded-lg border-effect w-full md:w-1/3 shadow-md shadow-blue-300" >
-                    <img className="h-28 grayscale invert mb-4" src={SE} alt="software engineer icon" />
+                    <img className="h-28 grayscale invert mb-4" src='https://i.ibb.co/mF71ktB/development.png' alt="software engineer icon" />
                     <p className="font-semibold mb-2">Software Engineer</p>
                     <p className="text-gray-400 text-left">
                         Experienced in building scalable software solutions, with expertise in design, development, and problem-solving.

@@ -30,10 +30,12 @@
     position: relative;
     transition: border-width 0.3s ease, border-color 0.3s ease;
   }
-
   
   .border-effect:hover {
     border-width: 4px;
+    border-style: solid;
+    border-image-slice: 1;
+    border-image: conic-gradient(from 0deg, transparent, #3b82f6, transparent) 1;
     animation: border-revolve-cyclic 4s linear infinite;
   }
   
