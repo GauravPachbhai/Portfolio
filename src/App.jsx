@@ -12,13 +12,15 @@ function App() {
 
   return (
     <>
-      <div className='flex flex-col self-center items-center justify-center bg-black'>
+      <div className='flex flex-col self-center items-center justify-center bg-black w-screen'>
         <div className='w-full'> <Navbar /></div>
-       
-          <section className='w-3/5' id='home'><Home /></section>
-          <section className='w-3/5' id='aboutme'><Aboutme /></section>
-          <section className='w-3/5' id='projects'> <Projects /></section>
-        
+
+        <div className='w-full flex flex-col justify-center self-center items-center mt-10 sm:mt-0'> 
+          <section className='w-3/4 sm:w-10/12 lg:w-3/4' id='home'><Home /></section>
+          <section className='w-3/4' id='aboutme'><Aboutme /></section>
+          <section className='w-3/4 mt-10' id='projects'> <Projects /></section>
+        </div>
+
       </div>
     </>
   )

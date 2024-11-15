@@ -16,8 +16,9 @@ function Home() {
   }, []);
 
   return (
-    <div className='flex justify-between  h-screen text-white items-center'>
-      <div className='text-left w-2/6'>
+    <div className='flex flex-col-reverse justify-evenly sm:flex-row sm:justify-between  h-screen text-white items-center '>
+      {/* Inro */}
+      <div className='text-left w-full sm:w-2/6 mt-5 sm:mt-0 '>
         <p className='text-white'>
           Hello, <span className='text-blue-500'>I'm</span>
         </p>
@@ -48,9 +49,10 @@ function Home() {
         </div>
       </div>
 
+    {/*Profile image */}
       <div>
         <img
-          className="bg-transparent object-cover object-center h-96 rounded-lg"
+          className="bg-transparent object-cover object-center  h-64 sm:h-80 lg:h-96 rounded-lg"
           src={Profile}
           alt="Profile background"
         />
