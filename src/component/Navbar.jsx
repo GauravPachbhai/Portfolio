@@ -25,7 +25,7 @@ function Navbar() {
                 <h1 className='text-white text-lg font-bold'>Portfolio</h1>
             </div>
             <div>
-                <ul className='flex space-x-3 justify-evenly  sm:space-x-6 text-white'>
+                <ul className='flex space-x-3 justify-evenly  sm:space-x-6 text-white text-sm sm:text-base'>
                     <li className='p-2 hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('home')}>Home</li>
                     <li className='p-2 hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('aboutme')}>About Me</li>
                     <li className='p-2  hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('projects')}>Projects</li>
