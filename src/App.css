@@ -117,9 +117,35 @@
 .wobble {
   animation: wobble 6s ease-in-out infinite;
 }
+/* Default styles */
 .top-0 {
-  top: -42px; /* Aligns the top edges */
+  top: -27px; /* Aligns the top edges */
 }
+
 .left-0 {
-  left: 20px; /* Aligns the left edges */
+  left: 2px; /* Aligns the left edges */
 }
+
+
+
+@media (width: 768px) {
+  .top-0 {
+    top: -35px; /* Adjusts top position for 768px screens */
+  }
+
+  .left-0 {
+    left: 20px; /* Adjusts left position for 768px screens */
+  }
+}
+
+/* Styles for screens 425px and below (override the 768px styles) */
+@media (width: 1024px) {
+  .top-0 {
+    top: -43px; /* Adjusts top position for 425px screens */
+  }
+
+  .left-0 {
+    left: 20px; /* Adjusts left position for 425px screens */
+  }
+}
+
