@@ -95,7 +95,7 @@ function Aboutme() {
                 <h1 className='text-blue-500 text-3xl mt-4 p-2'>Tech Stack</h1>
             </div>
 
-            <div className='grid grid-cols-2 sm:grid-cols-5 gap-5'>
+            <div className='grid grid-cols-2 sm:grid-cols-3  lg:grid-cols-4 gap-5'>
                 {
                     techStack.map((item)=>(
                         <Card link={item.link} title={item.title}/>

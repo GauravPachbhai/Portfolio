@@ -17,7 +17,7 @@ function App() {
         <div className='w-full'> <Navbar /></div>
 
         <div className='w-full flex flex-col justify-center self-center items-center mt-10 sm:mt-0'> 
-          <section className='w-3/4 sm:w-10/12 lg:w-3/4 mt-12 sm:mt-0 p-10' id='home'><Home /></section>
+          <section className='w-full sm:w-10/12 lg:w-3/4 mt-12 sm:mt-0 p-10' id='home'><Home /></section>
         
           <section className='w-3/4 pb-10' id='aboutme'><Aboutme /></section>
           <div className="w-full h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent" />

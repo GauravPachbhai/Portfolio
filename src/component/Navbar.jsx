@@ -15,7 +15,7 @@ function scrollToSection(id) {
 
 function Navbar() {
     return (
-        <nav className='flex flex-col justify-center sm:justify-between sm:flex-row items-center p-4 w-full sm:w-full fixed h-24 sm:h-16 bg-black z-20'>
+        <nav className='flex flex-col justify-center sm:justify-between sm:flex-row items-center p-4 w-fit sm:w-full fixed h-24 sm:h-16 bg-black z-20 mt-0 sm:mt-0'>
             <div className='flex items-center '>
                 <img
                     src='https://i.ibb.co/GPbdFJH/Frame-2.png'
@@ -25,7 +25,7 @@ function Navbar() {
                 <h1 className='text-white text-lg font-bold'>Portfolio</h1>
             </div>
             <div>
-                <ul className='flex space-x-6 text-white'>
+                <ul className='flex space-x-4    sm:space-x-6 text-white'>
                     <li className='p-2 hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('home')}>Home</li>
                     <li className='p-2 hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('aboutme')}>About Me</li>
                     <li className='p-2  hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('projects')}>Projects</li>
