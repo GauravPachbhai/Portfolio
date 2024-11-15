@@ -15,7 +15,7 @@ function scrollToSection(id) {
 
 function Navbar() {
     return (
-        <nav className='flex flex-col justify-center sm:justify-between sm:flex-row items-center p-4 w-fit sm:w-full fixed h-26 sm:h-16 bg-black z-20  sm:mt-0'>
+        <nav className='flex flex-col justify-center sm:justify-between sm:flex-row items-center p-4 w-full fixed h-26 sm:h-16 bg-black z-20  sm:mt-0'>
             <div className='flex items-center '>
                 <img
                     src='https://i.ibb.co/GPbdFJH/Frame-2.png'
