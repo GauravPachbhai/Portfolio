@@ -56,6 +56,18 @@ const techStack = [
     {
         title:'MongoDB',
         link:'https://i.ibb.co/RyBBVSK/mongo.png'
+    },
+    {
+        title:'Bootstrap',
+        link:'https://i.ibb.co/cywSbNW/bootstrap.png'
+    },
+    {
+        title:'Tailwind CSS',
+        link:"https://i.ibb.co/HYFZ6Cx/pngwing-com.png"
+    },
+    {
+        title:'Redux',
+        link:'https://i.ibb.co/Jj9g30X/pngwing-com-1.png'
     }
 ]
 
