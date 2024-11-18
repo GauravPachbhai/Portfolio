@@ -29,7 +29,7 @@ function Navbar() {
                     <li className='p-2 hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('home')}>Home</li>
                     <li className='p-2 hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('aboutme')}>About Me</li>
                     <li className='p-2  hover:text-blue-500 cursor-pointer' onClick={() => scrollToSection('projects')}>Projects</li>
-                    <li className='p-2 flex hover:bg-blue-900 cursor-pointer bg-blue-600 rounded-lg h-9 items-center'  ><a href='https://drive.google.com/file/d/1I-ttYIK1pw4LAaKDVlItwHf605vhcoc4/view?usp=drive_link' target="_blank">Resume</a></li>
+                    <li className='p-2 flex hover:bg-blue-900 cursor-pointer bg-blue-600 rounded-lg h-9 items-center'  ><a href='https://drive.google.com/file/d/1tdj_Ec0jSMgEYpNsBWsTSuMDRguEA3eQ/view?usp=drive_link' target="_blank">Resume</a></li>
                 </ul>
             </div>
         </nav>
